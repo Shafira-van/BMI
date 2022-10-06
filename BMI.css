@@ -146,6 +146,7 @@ nav h2 {
     display:flex;
     justify-content: center;
     padding-left: 1vw; 
+    font-size: 1vw;
 }
 
 #submit {
@@ -188,7 +189,7 @@ nav h2 {
 footer {
   padding: 0vw 2vw 0vw 2vw;
   background-color: black;
-  height: 20%;
+  height: auto;
   width: 100%;
   position: relative;
   margin-top: auto;

@@ -1,78 +1,71 @@
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MyProfil</title>
     <script src="BMI.js" defer></script>
     <link rel="stylesheet" href="BMI.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <nav>
-        <h1>Kalkulator</h1>
-        <h2>Body Massa Index</h2>
+      <h1>Kalkulator</h1>
+      <h2>Body Massa Index</h2>
     </nav>
-        <div class="konten">
-            <div class=textKonten>
-                <h1>BMI</h1>
-                <h2>Body Massa Index</h2>
-                <p>Body massa index adalah suatu ukuran yang
-                    digunakan untuk menunjukkan kategori berat badan seseorang.
-                    Kalkulator Body Massa Index berfungsi untuk mengetahui
-                    apakah berat badan sudah termasuk ideal atau belum.</p>
+    <div class="konten">
+      <div class="textKonten">
+        <h1>BMI</h1>
+        <h2>Body Massa Index</h2>
+        <p>
+          Body massa index adalah suatu ukuran yang digunakan untuk menunjukkan
+          kategori berat badan seseorang. Kalkulator Body Massa Index berfungsi
+          untuk mengetahui apakah berat badan sudah termasuk ideal atau belum.
+        </p>
 
-                <table class="tableKonten">
-                    <thead>
-                        <th>BMI</th>
-                        <th>Kategori</th>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                < 18.5 </td>
-                            <td> Berat badan kurang </td>
-                        </tr>
-                        <tr>
-                            <td> 18.5 - 24.9 </td>
-                            <td> Berat badan normal </td>
-                        </tr>
-                        <tr>
-                            <td> 25 - 29.9 </td>
-                            <td> Berat badan berlebih (kecenderungan obesitas) </td>
-                        </tr>
-                        <tr>
-                            <td> > 30 </td>
-                            <td> Obesitas </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="formKonten">
-                <form id="formSubmit">
-                    <h2>Kalkulator BMI</h2>
-                    <label>Tinggi Badan (cm)</label>
-                    <input type="text" id="tinggiBadan" value="">
-                    <label>Berat Badan (kg)</label>
-                    <input type="text" id="beratBadan" value="">
-                    <input type="submit" id="submit">
-                    <div id="columnHasil">
-                        <p id="paragraph"></p>
-                    </div>
-                </form>
-                <div id="hasilSubmit">
-                </div>
-            </div>
+        <table class="tableKonten">
+          <thead>
+            <th>BMI</th>
+            <th>Kategori</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>< 18.5</td>
+              <td>Berat badan kurang</td>
+            </tr>
+            <tr>
+              <td>18.5 - 24.9</td>
+              <td>Berat badan normal</td>
+            </tr>
+            <tr>
+              <td>25 - 29.9</td>
+              <td>Berat badan berlebih (kecenderungan obesitas)</td>
+            </tr>
+            <tr>
+              <td>> 30</td>
+              <td>Obesitas</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="formKonten">
+        <form id="formSubmit">
+          <h2>Kalkulator BMI</h2>
+          <label>Tinggi Badan (cm)</label>
+          <input type="text" id="tinggiBadan" value="" />
+          <label>Berat Badan (kg)</label>
+          <input type="text" id="beratBadan" value="" />
+          <input type="submit" id="submit" />
+          <div id="columnHasil">
+            <p id="paragraph"></p>
+          </div>
+        </form>
+        <div id="hasilSubmit"></div>
+      </div>
+    </div>
 
-        </div>
-
-    <body>
-        <footer>
-            <p>@copyright</p>
-
-
-        </footer>
-    </body>
-
+    <footer>
+      <p>@copyright</p>
+    </footer>
+  </body>
 </html>
